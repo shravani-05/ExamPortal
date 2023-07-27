@@ -1,0 +1,15 @@
+{% extends 'exam/adminbase.html' %}
+{% load widget_tweaks %}
+{% block content %}
+<head>
+
+</head>
+<body>
+    <div class="form-row">
+        <div class="form-group col-md-12">
+          <label for="Timetable">Timetable</label>
+          {% render_field Timetable.profile_pic|attr:'required:true' class="Timetable" placeholder="" %}
+        </div>
+        
+      </div>
+</body>
